@@ -1,0 +1,59 @@
+D:\prueba>node app.js
+2020-01-20 23:06:34.280541: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2020-01-20 23:06:34.284887: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.2020-01-20 23:06:34.332031: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2020-01-20 23:06:34.339832: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library nvcuda.dll
+2020-01-20 23:06:34.618406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties:
+name: GeForce GTX 1060 3GB major: 6 minor: 1 memoryClockRate(GHz): 1.7845
+pciBusID: 0000:08:00.0
+2020-01-20 23:06:34.623454: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cudart64_100.dll'; dlerror: cudart64_100.dll not found
+2020-01-20 23:06:34.628005: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cublas64_100.dll'; dlerror: cublas64_100.dll not found
+2020-01-20 23:06:34.632369: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cufft64_100.dll'; dlerror: cufft64_100.dll not found
+2020-01-20 23:06:34.636848: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'curand64_100.dll'; dlerror: curand64_100.dll not found
+2020-01-20 23:06:34.641218: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusolver64_100.dll'; dlerror: cusolver64_100.dll not found
+2020-01-20 23:06:34.645737: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'cusparse64_100.dll'; dlerror: cusparse64_100.dll not found
+2020-01-20 23:06:34.658696: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library cudnn64_7.dll
+2020-01-20 23:06:34.662647: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1641] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2020-01-20 23:06:34.877477: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-20 23:06:34.880616: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0
+2020-01-20 23:06:34.883660: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N
+Epoch 1 / 10
+eta=0.0 =============================================================================>
+85325ms 85us/step - loss=1.00
+Epoch 0: loss = 1.0037742853164673
+Epoch 2 / 10
+eta=0.0 =============================================================================>
+86132ms 86us/step - loss=1.00
+Epoch 1: loss = 1.0022832155227661
+Epoch 3 / 10
+eta=0.0 =============================================================================>
+85178ms 85us/step - loss=1.00
+Epoch 2: loss = 1.0018795728683472
+Epoch 4 / 10
+eta=0.0 =============================================================================>
+85120ms 85us/step - loss=1.00
+Epoch 3: loss = 1.0016416311264038
+Epoch 5 / 10
+eta=0.0 =============================================================================>
+85897ms 86us/step - loss=1.00
+Epoch 4: loss = 1.0014628171920776
+Epoch 6 / 10
+eta=0.0 =============================================================================>
+85659ms 86us/step - loss=1.00
+Epoch 5: loss = 1.0013362169265747
+Epoch 7 / 10
+eta=0.0 ======================================================================================================>
+83839ms 84us/step - loss=1.00
+Epoch 6: loss = 1.0012784004211426
+Epoch 8 / 10
+eta=0.0 ======================================================================================================>
+84625ms 85us/step - loss=1.00
+Epoch 7: loss = 1.001202940940857
+Epoch 9 / 10
+eta=0.0 ======================================================================================================>
+84539ms 85us/step - loss=1.00
+Epoch 8: loss = 1.0011563301086426
+Epoch 10 / 10
+eta=0.0 ======================================================================================================>
+83960ms 84us/step - loss=1.00
+Epoch 9: loss = 1.0010948181152344
